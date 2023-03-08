@@ -7,8 +7,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="author" content="SpawnCode">
     <meta name="generator" content="Hugo 0.108.0">
+    <meta name="keywords" content="читы, гмод, читы гмод, читы гаррис мод, урбаничка, hacks, cheats, gmod cheats, garry's mod cheats, garry's mod hacks, gmod hacks, gmod, garry's mod, гаррис мод, gmodhacklib">
     <title>3glib, библиотека GMOD-читов</title>
 
     
@@ -68,6 +69,71 @@
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
       }
+          <style>
+        body {
+            background-color: #307eba;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        button {
+            border: none;
+            padding: 8px 30px;
+            background-color: #307eba;
+            color: white;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+            transition: all 0.3s ease-out;
+        }
+
+        button:hover {
+            background-color: #307eba;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.26);
+        }
+
+        button:before {
+            content: '';
+            background-color: #2F2F2F;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            transform: translateX(-100%);
+            transition: transform 0.3s ease-out;
+            z-index: -1;
+        }
+
+        button:hover:before {
+            transform: translateX(0);
+        }
+
+        button:after {
+            content: '';
+            background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.1));
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: opacity 0.3s ease-out;
+            z-index: -2;
+        }
+
+        button:hover:after {
+            opacity: 1;
+        }
     </style>
 
     
@@ -108,9 +174,9 @@
         <p class="lead text-muted">Тут вы можете найти бесплатные читы для гмода. Библиотека будет регулярно пополняться. Пока что она содержит только читы, которые использовал Urbanichka.
         Домен и хостинг оплачивается из кармана создателя сайта. Если хотите - можете поддержать проект по кнопке ниже.</p>
         <p>
-          <a href="https://github.com/SpawnCodegmd" class="btn btn-primary my-2">Source-код сайта</a>
-          <a href="https://qiwi.com/payment/form/99999?extra[%27accountType%27]=nickname&extra[%27account%27]=SPCODE99" class="btn btn-primary my-2">Поддержать сайт</a>
-          <a href="https://brokencore.club" class="btn btn-primary my-2">Источник всех читов</a>
+          <button onclick="window.location.href='https://github.com/SpawnCodegmd';">Исходный код сайта</button>
+          <button onclick="window.location.href='https://qiwi.com/payment/form/99999?extra[%27accountType%27]=nickname&extra[%27account%27]=SPCODE99';">Поддержать сайт</button>
+          <button onclick="window.location.href='https://brokencore.club';">Исходник всех читов</button>
         </p>
       </div>
     </div>
@@ -128,9 +194,9 @@
               <p class="card-text">CRANIUM: Самый популярный чит на данный момент. Лучший чит для игры.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <a href="https://github.com/SpawnCodegmd" class="btn btn-primary my-2">Скачать</a>
-                  <a href="https://brokencore.club" class="btn btn-secondary my-2">Virustotal</a>
-                  <a href="https://brokencore.club" class="btn btn-secondary my-2">CFG</a>
+                  <a href="https://cdn.discordapp.com/attachments/1079442966088785961/1079443003069972540/Cranium.dll" class="btn btn-primary my-2">Скачать</a>
+                  <a href="https://t.me/urbanichka" class="btn btn-secondary my-2">ИСТОЧНИК</a>
+                  <a href="https://cdn.discordapp.com/attachments/1079442966088785961/1079444495164252190/urbanichkacfgcranium.chm" class="btn btn-secondary my-2">CFG</a>
                 </div>
               </div>
             </div>
@@ -143,9 +209,9 @@
               <p class="card-text">ONETAP: Один из лучших бесплатных читов. Ренеймнулся на CRANIUM.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <a href="https://github.com/SpawnCodegmd" class="btn btn-primary my-2">Скачать</a>
-                  <a href="https://brokencore.club" class="btn btn-secondary my-2">Virustotal</a>
-                  <a href="https://brokencore.club" class="btn btn-secondary my-2">CFG</a>
+                  <a href="https://cdn.discordapp.com/attachments/1079442966088785961/1079443017112486001/Onetap.dll" class="btn btn-primary my-2">Скачать</a>
+                  <a href=" https://www.virustotal.com/gui/file/2391c974795a311d820bd6121b7738583e934385da86cf62ebd7e9efcf6476c4" class="btn btn-secondary my-2">Virustotal</a>
+                  <a href="https://cdn.discordapp.com/attachments/1079442966088785961/1079444315367014491/urbanichkacfgonetapgm.otc" class="btn btn-secondary my-2">CFG</a>
                 </div>
               </div>
             </div>
@@ -158,9 +224,8 @@
               <p class="card-text">MEMORIAM: Бесплатный чит с красивым меню. Статус: Undetected</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <a href="https://github.com/SpawnCodegmd" class="btn btn-primary my-2">Скачать</a>
-                  <a href="https://brokencore.club" class="btn btn-secondary my-2">Virustotal</a>
-                  <a href="https://brokencore.club" class="btn btn-secondary my-2">CFG</a>
+                  <a href="https://cdn.discordapp.com/attachments/1079442966088785961/1079443027497594921/Memoriam.dll" class="btn btn-primary my-2">Скачать</a>
+                  <a href=" https://www.virustotal.com/gui/file/2ad0af03c173315ba84e0f9da1dc20d402a0d871dc557d893fc1eaa4eb367d94" class="btn btn-secondary my-2">Virustotal</a>
                 </div>
               </div>
             </div>
@@ -174,9 +239,9 @@
               <p class="card-text">CFF: Бесплатный, проверенный временим чит. Статус: Undetected.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <a href="https://github.com/SpawnCodegmd" class="btn btn-primary my-2">Скачать</a>
-                  <a href="https://brokencore.club" class="btn btn-secondary my-2">Virustotal</a>
-                  <a href="https://brokencore.club" class="btn btn-secondary my-2">CFG</a>
+                  <a href="https://cdn.discordapp.com/attachments/1079442966088785961/1079443421296590939/CFF.dll" class="btn btn-primary my-2">Скачать</a>
+                  <a href=" https://www.virustotal.com/gui/file/81511377549cee2fc3ed6048414a9de275d6ed6861d7ba162b27b2df7a392543" class="btn btn-secondary my-2">Virustotal</a>
+                  <a href="https://cdn.discordapp.com/attachments/1079442966088785961/1079443727464013884/urbanichkacfgcff.cfg" class="btn btn-secondary my-2">CFG</a>
                 </div>
               </div>
             </div>
@@ -189,9 +254,9 @@
               <p class="card-text">NEVERPIVO. Бесплатный чит на гмод с менюшкой неверлуза. Статус: Undetected.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <a href="https://github.com/SpawnCodegmd" class="btn btn-primary my-2">Скачать</a>
-                  <a href="https://brokencore.club" class="btn btn-secondary my-2">Virustotal</a>
-                  <a href="https://brokencore.club" class="btn btn-secondary my-2">CFG</a>
+                  <a href="https://cdn.discordapp.com/attachments/1079442966088785961/1079443561566699520/Neverpivo.dll" class="btn btn-primary my-2">Скачать</a>
+                  <a href="https://www.virustotal.com/gui/file/2391c974795a311d820bd6121b7738583e934385da86cf62ebd7e9efcf6476c4" class="btn btn-secondary my-2">Virustotal</a>
+                  <a href="https://cdn.discordapp.com/attachments/1079442966088785961/1079443743888920687/urbanichkacfgneverpivo.np" class="btn btn-secondary my-2">CFG</a>
                 </div>
               </div>
             </div>
