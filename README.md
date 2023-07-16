@@ -1,2 +1,2 @@
 # gmodhacklib
-Сурсы сайта gmodhacklib. Не содержит ссылок на скачивание читов, добавляйте сами.
+sources of gmodhacklib
